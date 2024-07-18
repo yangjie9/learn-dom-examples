@@ -1,0 +1,26 @@
+@import "./common.less";
+
+body {
+  --size: 16px;
+  background: linear-gradient(to bottom, #00000050, yellow) no-repeat fixed;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: var(--size);
+  line-height: 1.5;
+  p {
+    font-size: var(--size);
+    user-select: none;
+    color: #ff000050;
+    text-indent: 5ic;
+  }
+  .linear {
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(yellowgreen 40%, gold 0deg 75%, #f06 0deg);
+  }
+  .cDiv {
+    background: #f00;
+    width: 100px;
+    height: 100px;
+  }
+}

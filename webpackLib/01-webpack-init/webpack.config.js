@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: "[name].[contenthash:8].js",
     path: __dirname + "/dist",
-    // clean: true, // remove dist directory
+    clean: true, // 删除dist目录
   },
   plugins: [
     new HtmlWebpackPlugin({
